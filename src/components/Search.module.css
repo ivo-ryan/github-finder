@@ -22,7 +22,7 @@
 .search_container input,
 .search_container button {
   padding: 0.6rem;
-  border-radius: 3px;
+  border-radius: 6px;
   border: none;
   color: #2b3566;
 }
@@ -30,4 +30,13 @@
 .search_container button {
   background-color: #0e1129;
   cursor: pointer;
+}
+
+.search_container input{
+  outline: none;
+  transition: 0.3s;
+}
+
+.search_container input:focus{
+  border: 2px solid #7d34a2;
 }
